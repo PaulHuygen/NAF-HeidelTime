@@ -10,7 +10,8 @@ import re
 from lxml import etree
 
 sys.path.append('/Users/antske/PipelineBN/modulesForPaul/KafNafParserAntske/')
-from KafNafParserMod import *
+# from KafNafParserMod import *
+from KafNafParserPy import *
 #mapping language marking from naf to options in HeidelTime (NewsReader languages only)
 #FIXME: for now English only, Dutch is default
 langOptions = {'en': 'ENGLISH'}
